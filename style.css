@@ -1,0 +1,64 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.headerlinks {
+    font-size: 18px;
+}
+
+.heromaintext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.herosecondtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.visiblearea {
+    background-color: #1F2937;
+}
+
+#signupbutton {
+    background-color: #3882F6;
+}
+
+.mainsection {
+    display: flex;
+}
+
+.mainsectiontext {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainsectionimg {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 12px 1em;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 24px;
+}
