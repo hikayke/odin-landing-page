@@ -32,10 +32,19 @@ a {
 
 .visiblearea {
     background-color: #1F2937;
+    padding: 64px;
+    padding-top: 12px;
 }
 
 #signupbutton {
     background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    width: 128px;
+    font-weight: 900;
+    border-radius: 12px;
+    margin-top: -10px;
+    
 }
 
 .mainsection {
@@ -45,10 +54,19 @@ a {
 .mainsectiontext {
     display: flex;
     flex-direction: column;
+    margin-left: 64px;
+    margin-right: 72px;
+    width: 500px;
+}
+
+.heromaintext {
+    margin-bottom: -10px;
 }
 
 .mainsectionimg {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
